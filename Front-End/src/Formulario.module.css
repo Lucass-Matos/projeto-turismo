@@ -1,0 +1,64 @@
+.caixa {
+  padding: 22px;
+  background-color: white;
+  border-top: 4px solid #0b6b8f;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.caixa label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.caixa input,
+.caixa select,
+.caixa textarea {
+  padding: 10px;
+  border: 1px solid #b9c9d3;
+  border-radius: 6px;
+}
+
+.caixa small {
+  color: #667780;
+  font-weight: normal;
+}
+
+.descricao {
+  margin-top: 14px;
+}
+
+.descricao textarea {
+  min-height: 80px;
+}
+
+.caixa button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  background-color: #0b6b8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.erro {
+  padding: 10px;
+  background-color: #fde9e9;
+  color: #9c1b1b;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .grade {
+    grid-template-columns: 1fr;
+  }
+}

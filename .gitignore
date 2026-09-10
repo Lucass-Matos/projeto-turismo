@@ -1,0 +1,6 @@
+api/target/
+api/dados/
+cliente/node_modules/
+cliente/dist/
+.vscode/
+.idea/

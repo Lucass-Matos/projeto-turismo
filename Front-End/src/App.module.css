@@ -1,0 +1,39 @@
+.pagina {
+  min-height: 100vh;
+}
+
+.cabecalho {
+  padding: 28px;
+  background-color: #0b6b8f;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.caixa {
+  margin-top: 20px;
+  padding: 22px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.sucesso {
+  padding: 12px;
+  background-color: #e5f7eb;
+  color: #176b3a;
+  border-radius: 7px;
+}
+
+.erro {
+  padding: 12px;
+  background-color: #fde9e9;
+  color: #9c1b1b;
+  border-radius: 7px;
+}
