@@ -219,14 +219,3 @@ projeto-turismo-simples/
 └── README.md
 ```
 
-## Observacao sobre useState
-
-O `useState` foi mantido porque o requisito da atividade exige o uso de estado no React. Ele armazena os valores do formulario, a lista de destinos, as mensagens e o estado de carregamento. Sem estado, o formulario e a atualizacao da tela ficariam inadequados para o requisito solicitado.
-
-## Observacao sobre node_modules
-
-A pasta `node_modules` nao esta no repositorio e nao deve ser enviada. Ela e criada automaticamente quando o comando abaixo e executado:
-
-```powershell
-npm install
-```
